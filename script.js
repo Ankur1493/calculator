@@ -30,10 +30,7 @@ for(let i = 0; i<operations.length; i++){
             output = ans.innerText;
         }else{
             let len = output.replace("+",a);
-            // output[len] = a;
-            console.log(len)
-
-
+            ans.innerText = len;
 
         }
     })
