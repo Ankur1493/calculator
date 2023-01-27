@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(3,88,105);
+    background: linear-gradient(90deg, rgb(19, 116, 136) 0%, rgb(26, 112, 11) 100%); 
+}
+.mainContent{
+    height: 80vh;
+    width: 30vw;
+    background-color: rgb(53, 21, 21);
+    margin: auto;
+    margin-top: 5%;
+    font-family: 'Fira Sans', sans-serif;}
+
+.value{
+    height: 15%;
+    background-color: #000000;
+}
+.buttons{
+    display: flex;
+    height: 85%;
+    background-color: #ffffff;
+}
+.nums{
+    width: 74%;
+    height: 100%;
+    /* padding-top: 5%; */
+    /* background-color: red; */
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 25%;
+    /* border: 1px solid black; */
+}
+.keys{
+    width: 33%;
+    height: 95%;
+    background-color: rgb(238, 198, 198);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.operations{
+    height: 100%;
+    width: 26%;
+    /* background-color: yellow; */
+    margin-right: auto;
+    
+}
+   
+.operations .op{
+    margin-top: 2.5%;
+    margin-bottom: 4%;
+    margin-left: 2%;
+    height: 24%;
+    width: 95%;
+    background-color: rgb(238, 198, 198);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+}
