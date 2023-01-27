@@ -16,6 +16,12 @@ body{
 .value{
     height: 15%;
     background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 5%;
+    font-size: 40px;
 }
 .buttons{
     display: flex;
@@ -44,7 +50,7 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
 }
 .operations{
@@ -67,6 +73,9 @@ body{
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 400;
     cursor: pointer;
+}
+button{
+    border: 0px;
 }
